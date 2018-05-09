@@ -11,9 +11,9 @@ use Term::Size::Any qw( chars );
 sub load
 {
   my($class, $p) = @_;
-  return if $ENV{TERM_TABLE_SIZE};
+  return if $ENV{TABLE_TERM_SIZE};
   open FP, '>', '/dev/tty';
-  $ENV{TERM_TABLE_SIZE} = chars(*FP);
+  $ENV{TABLE_TERM_SIZE} = chars(*FP);
   close FP;
 }
 
