@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - first CPAN release
 
 0.01      2018-05-08 20:10:22 -0400
   - initial version
