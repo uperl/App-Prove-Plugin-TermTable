@@ -11,9 +11,9 @@ $mock->override('chars' => sub { 128 });
 subtest 'prefer existing environment variable' => sub {
 
   local $ENV{TABLE_TERM_SIZE} = 90;
-  
+
   App::Prove::Plugin::TermTable->load;
-  
+
   is $ENV{TABLE_TERM_SIZE}, 90;
 
 };
@@ -21,7 +21,7 @@ subtest 'prefer existing environment variable' => sub {
 subtest 'prefer existing environment variable' => sub {
 
   App::Prove::Plugin::TermTable->load;
-  
+
   is $ENV{TABLE_TERM_SIZE}, 128;
 
 };
