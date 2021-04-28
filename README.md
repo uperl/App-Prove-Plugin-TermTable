@@ -1,4 +1,4 @@
-# App::Prove::Plugin::TermTable [![Build Status](https://secure.travis-ci.org/plicease/App-Prove-Plugin-TermTable.png)](http://travis-ci.org/plicease/App-Prove-Plugin-TermTable)
+# App::Prove::Plugin::TermTable ![linux](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/linux/badge.svg) ![macos](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/macos/badge.svg) ![windows](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/windows/badge.svg) ![cygwin](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/cygwin/badge.svg) ![msys2-mingw](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/msys2-mingw/badge.svg)
 
 Set the size of the console for Term::Table
 
@@ -6,11 +6,15 @@ Set the size of the console for Term::Table
 
 From command-line:
 
-    prove -PTermTable
+```
+prove -PTermTable
+```
 
 From .proverc:
 
-    -PTermTable
+```
+-PTermTable
+```
 
 # DESCRIPTION
 
