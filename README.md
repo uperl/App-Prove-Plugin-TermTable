@@ -1,4 +1,4 @@
-# App::Prove::Plugin::TermTable ![linux](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/linux/badge.svg) ![macos](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/macos/badge.svg) ![windows](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/windows/badge.svg) ![msys2-mingw](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/msys2-mingw/badge.svg)
+# App::Prove::Plugin::TermTable ![linux](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/linux/badge.svg) ![macos](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/macos/badge.svg) ![windows](https://github.com/uperl/App-Prove-Plugin-TermTable/workflows/windows/badge.svg)
 
 Set the size of the console for Term::Table
 
