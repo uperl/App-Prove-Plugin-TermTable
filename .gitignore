@@ -1,2 +1,4 @@
 /App-Prove-Plugin-TermTable-*
 /.build
+*.old
+*.orig
